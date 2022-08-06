@@ -13,6 +13,8 @@
 		E602E992289598E00016B383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E602E990289598E00016B383 /* Main.storyboard */; };
 		E602E994289598E20016B383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E602E993289598E20016B383 /* Assets.xcassets */; };
 		E602E997289598E20016B383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E602E995289598E20016B383 /* LaunchScreen.storyboard */; };
+		E65D8093289DE19100F112E9 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D8092289DE19100F112E9 /* CalculatorBrain.swift */; };
+		E65D8095289E8B5900F112E9 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65D8094289E8B5900F112E9 /* BMI.swift */; };
 		E68A62DB289AECCF00E4B7BB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68A62DA289AECCF00E4B7BB /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		E602E993289598E20016B383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E602E996289598E20016B383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E602E998289598E20016B383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65D8092289DE19100F112E9 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		E65D8094289E8B5900F112E9 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		E68A62DA289AECCF00E4B7BB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +62,7 @@
 		E602E989289598E00016B383 /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				E65D8091289DE11200F112E9 /* Model */,
 				E602E98A289598E00016B383 /* AppDelegate.swift */,
 				E602E98C289598E00016B383 /* SceneDelegate.swift */,
 				E68A62D9289AEC8C00E4B7BB /* Controller */,
@@ -75,6 +80,15 @@
 				E602E990289598E00016B383 /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E65D8091289DE11200F112E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E65D8092289DE19100F112E9 /* CalculatorBrain.swift */,
+				E65D8094289E8B5900F112E9 /* BMI.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E68A62D9289AEC8C00E4B7BB /* Controller */ = {
@@ -160,6 +174,8 @@
 				E602E98F289598E00016B383 /* CalculateViewController.swift in Sources */,
 				E602E98B289598E00016B383 /* AppDelegate.swift in Sources */,
 				E602E98D289598E00016B383 /* SceneDelegate.swift in Sources */,
+				E65D8093289DE19100F112E9 /* CalculatorBrain.swift in Sources */,
+				E65D8095289E8B5900F112E9 /* BMI.swift in Sources */,
 				E68A62DB289AECCF00E4B7BB /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
